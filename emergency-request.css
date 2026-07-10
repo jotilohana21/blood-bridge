@@ -1,0 +1,118 @@
+:root{
+  --red:#BF1A1A;
+  --pink:#FF8FB7;
+  --yellow:#FFCF71;
+  --white:#ffffff;
+  --black:#000000;
+}
+
+/* ===== PAGE BASE ===== */
+body{
+  margin:0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(120deg, #fff0f5, #ffe4ec);
+}
+
+/* ===== MAIN WRAPPER ===== */
+.emergency-wrapper{
+  max-width: 1000px;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--white);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.15);
+}
+
+/* ===== LEFT IMAGE ===== */
+.emergency-image{
+  background: linear-gradient(135deg, var(--red), var(--pink));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emergency-image img{
+  width: 80%;
+  max-width: 350px;
+}
+
+/* ===== FORM SIDE ===== */
+.emergency-form{
+  padding: 45px;
+}
+
+.emergency-form h2{
+  color: var(--red);
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+.emergency-form p{
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* ===== LABELS ===== */
+.emergency-form label{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+/* ===== INPUTS ===== */
+.emergency-form input,
+.emergency-form select,
+.emergency-form textarea{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+.emergency-form input:focus,
+.emergency-form select:focus,
+.emergency-form textarea:focus{
+  border-color: var(--pink);
+  box-shadow: 0 0 0 3px rgba(255,143,183,0.25);
+}
+
+/* ===== TEXTAREA ===== */
+.emergency-form textarea{
+  resize: none;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+.emergency-form button{
+  width: 100%;
+  margin-top: 28px;
+  padding: 14px;
+  background: var(--yellow);
+  color: var(--black);
+  border: none;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.emergency-form button:hover{
+  background: #f5bd4a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+:root{
+  --red:#BF1A1A;
+  --pink:#FF8FB7;
+  --yellow:#FFCF71;
+  --white:#ffffff;
+  --black:#000000;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background: linear-gradient(135deg,#f4d8df,#fff7ee);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* MAIN WRAPPER */
+.register-wrapper{
+  width:90%;
+  max-width:1100px;
+  background:#fff;
+  display:flex;
+  border-radius:22px;
+  overflow:hidden;
+  box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+/* LEFT PANEL */
+.register-left{
+  flex:1;
+  background: linear-gradient(45deg,var(--pink),var(--yellow));
+  padding:50px 40px;
+  color:#000;
+}
+
+.register-left h1{
+  font-size:36px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+.register-left p{
+  font-size:15px;
+  line-height:1.6;
+  margin-bottom:25px;
+}
+
+.benefits{
+  list-style:none;
+  margin-bottom:30px;
+}
+
+.benefits li{
+  margin-bottom:10px;
+  font-weight:500;
+}
+
+.benefits i{
+  color:var(--red);
+  margin-right:8px;
+}
+
+.register-left img{
+  width:100%;
+  max-width:200px;
+  margin-top:20px;
+}
+
+/* RIGHT PANEL */
+.register-right{
+  flex:1;
+  padding:50px 40px;
+}
+
+.register-right h2{
+  font-size:30px;
+  font-weight:700;
+  color:var(--red);
+}
+
+.subtitle{
+  color:#555;
+  margin-bottom:30px;
+}
+
+/* FORM */
+.register-form{
+  width:100%;
+}
+
+.input-group{
+  display:flex;
+  align-items:center;
+  background:#f6f6f6;
+  border-radius:10px;
+  padding:12px 15px;
+  margin-bottom:15px;
+}
+
+.input-group i{
+  color:var(--red);
+  font-size:16px;
+  margin-right:10px;
+}
+
+.input-group input,
+.input-group select{
+  border:none;
+  outline:none;
+  background:transparent;
+  width:100%;
+  font-size:14px;
+  font-family:'Poppins',sans-serif;
+}
+
+.input-group select{
+  cursor:pointer;
+}
+
+/* BUTTON */
+.register-btn{
+  width:100%;
+  margin-top:15px;
+  padding:13px;
+  border:none;
+  border-radius:30px;
+  font-size:16px;
+  font-weight:700;
+  background: linear-gradient(45deg,var(--pink),var(--yellow));
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.register-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* LOGIN LINK */
+.login-link{
+  text-align:center;
+  margin-top:18px;
+  font-size:14px;
+}
+
+.login-link a{
+  color:var(--red);
+  font-weight:600;
+  text-decoration:none;
+}

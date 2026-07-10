@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#f857a6,#ff5858);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* ===== FORM CONTAINER ===== */
+.form-container{
+    background:white;
+    width:420px;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 25px 60px rgba(0,0,0,0.25);
+    animation:fadeUp 0.7s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* ===== HEADER ===== */
+.form-header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.form-header i{
+    font-size:45px;
+    color:#e52d27;
+    margin-bottom:10px;
+}
+
+.form-header h2{
+    font-size:24px;
+    font-weight:600;
+}
+
+.form-header p{
+    font-size:14px;
+    color:#666;
+}
+
+/* ===== INPUT GROUP ===== */
+.input-group{
+    margin-bottom:18px;
+}
+
+.input-group label{
+    font-size:13px;
+    font-weight:500;
+    margin-bottom:6px;
+    display:block;
+}
+
+.input-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#f4f6fa;
+    padding:12px 14px;
+    border-radius:14px;
+    transition:0.3s ease;
+}
+
+.input-box i{
+    color:#e52d27;
+    font-size:16px;
+}
+
+.input-box input,
+.input-box select{
+    border:none;
+    outline:none;
+    background:none;
+    width:100%;
+    font-size:14px;
+}
+
+.input-box:focus-within{
+    background:#fff;
+    box-shadow:0 0 0 2px rgba(229,45,39,0.4);
+}
+
+/* ===== BUTTONS ===== */
+.btn-group{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    margin-top:25px;
+}
+
+.btn{
+    padding:13px;
+    border-radius:30px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    transition:0.3s ease;
+}
+
+.primary{
+    background:linear-gradient(45deg,#b31217,#e52d27);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.primary:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(229,45,39,0.45);
+}
+
+.secondary{
+    background:#f1f3f6;
+    color:#333;
+}
+
+.secondary:hover{
+    background:#e4e7ec;
+}

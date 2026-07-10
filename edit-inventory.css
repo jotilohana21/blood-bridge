@@ -1,0 +1,74 @@
+.edit-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f8f9fc;
+}
+
+.edit-form{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    width:360px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.1);
+}
+
+.edit-form h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.blood-preview{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.blood-preview i{
+    font-size:36px;
+    color:#e63946;
+}
+
+.blood-preview h3{
+    margin-top:5px;
+}
+
+.edit-form label{
+    font-weight:600;
+    font-size:14px;
+}
+
+.edit-form input{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin:8px 0 18px;
+    font-size:14px;
+}
+
+.form-actions{
+    display:flex;
+    gap:12px;
+}
+
+.btn-save{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:12px;
+    background:#e63946;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.btn-cancel{
+    flex:1;
+    text-align:center;
+    padding:12px;
+    border-radius:12px;
+    background:#eee;
+    color:#555;
+    text-decoration:none;
+}
