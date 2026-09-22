@@ -114,6 +114,14 @@ blood-bridge/
 ```
 
 ---
+## 🏆 Achievement
+
+- 🥈 **2nd Place** — Web Engineering Exhibition, QUEST Nawabshah (2025)
+
+## 📅 Last Updated
+
+September 2026
+---
 
 ## 📄 License
 
